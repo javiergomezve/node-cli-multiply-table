@@ -1,0 +1,20 @@
+{
+  "name": "multiply-cli",
+  "version": "0.0.1",
+  "description": "Generate a multiply table and put results on a file .txt",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base3": "node app --base=3"
+  },
+  "keywords": [],
+  "author": "Javier Gomez <javiergomezve@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
